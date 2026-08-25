@@ -249,7 +249,7 @@ private fun DeadlineCard(
         colors = CardDefaults.cardColors(containerColor = Color.White),
         elevation = CardDefaults.cardElevation(1.dp)
     ) {
-        Column(Modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             val label = epochDay?.let {
                 LocalDate.ofEpochDay(it).format(DateTimeFormatter.ofPattern("EEE, d MMM yyyy"))
             } ?: "No date set"
@@ -265,7 +265,7 @@ private fun DeadlineCard(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Column(Modifier = Modifier.weight(1f)) {
+                Column(modifier = Modifier.weight(1f)) {
                     Text("Morning reminder (9:00)", fontWeight = FontWeight.Medium)
                     Text(
                         "Local notification on your phone only",

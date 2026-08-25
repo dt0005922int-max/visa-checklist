@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Visa Checklist</string>
+    <string name="reminder_channel_name">Deadline reminders</string>
+    <string name="reminder_channel_desc">Alerts for your visa appointment and document deadlines</string>
+    <string name="reminder_title">Visa deadline reminder</string>
+</resources>
